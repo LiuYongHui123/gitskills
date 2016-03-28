@@ -18,6 +18,8 @@
 >>合并某分支到当前分支：git merge <name>
 
 >>删除分支：git branch -d <name>
+
+>>$ git log --graph --pretty=oneline --abbrev-commit 查看分支合并情况
 git status 查看当前分支状态<br>
 git branch 查看当前所在分支<br>
         git init 初始化版本库
