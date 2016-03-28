@@ -21,6 +21,7 @@
 
 >>强制删除分支：git branch -D <name>
 
+>>创建与远程分支关联的分支： git checkout -b <branchname> <origin/branchname>
 git status 查看当前分支状态<br>
 git branch 查看当前所在分支<br>
         git init 初始化版本库<br>
