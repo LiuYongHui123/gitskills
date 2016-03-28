@@ -20,8 +20,13 @@
 >>删除分支：git branch -d <name>
 git status 查看当前分支状态<br>
 git branch 查看当前所在分支<br>
-        git init 初始化版本库
-        git branch -a 查看服务器分支
+        git init 初始化版本库<br>
+        git branch -a 查看服务器分支<br>
+        git stash 将当前分支暂存<br>
+        git stash apply 将暂存内容恢复，单暂存的内容不删除<br>
+        git stash drop 删除暂存的内容，用在恢复之后 <br>
+        git stash pop  恢复暂存的同时删除stash内容 <br>
+
         
 
 **************************************************************
