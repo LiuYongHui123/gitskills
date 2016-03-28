@@ -24,6 +24,7 @@ git status 查看当前分支状态<br>
 git branch 查看当前所在分支<br>
         git init 初始化版本库
         git branch -a 查看服务器分支
+        git merge *name 将name分支合并到当前分支
 
 
 **************************************************************
