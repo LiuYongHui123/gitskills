@@ -13,7 +13,7 @@
 
 >>切换分支：git checkout <name>
 
->>创建+切换分支：git checkout -b <name> 创建新分支并切换
+>>创建+切换分支：git checkout -b <name> 创建新分支并切换到新建分支
 
 >>合并某分支到当前分支：git merge <name>
 
@@ -22,4 +22,6 @@ git status 查看当前分支状态<br>
 git branch 查看当前所在分支<br>
         git init 初始化版本库
         git branch -a 查看服务器分支
+
+
 **************************************************************
