@@ -22,8 +22,18 @@
 >>强制删除分支：git branch -D <name>
 
 >>创建与远程分支关联的分支： git checkout -b <branchname> <origin/branchname>
-git status 查看当前分支状态<br>
-git branch 查看当前所在分支<br>
+
+>>推送自己的修改： git push origin <branchname>
+
+>>拉取服务器代码： git pull
+
+>>查看远程库的信息： git remote -v
+
+>>推送本地分支： git push origin <branchname>
+
+>>建立本地分支与远程分支的关联： git branch --set-upstream
+        git status 查看当前分支状态<br>
+        git branch 查看当前所在分支<br>
         git init 初始化版本库<br>
         git branch -a 查看服务器分支<br>
         git stash 将当前分支暂存<br>
