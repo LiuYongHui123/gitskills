@@ -14,9 +14,9 @@ README
 ----------------------------
 
 
-###         推荐一个比较好的git学习的网址 廖雪峰git教程网址(http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000）
+[廖雪峰git教程网址](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000 "git 教程")
 
->分支
+* [分支](#line)
 >>查看分支：git branch
 
 >>创建分支：git branch <name>
@@ -33,6 +33,8 @@ README
 
 >>创建与远程分支关联的分支： git checkout -b <branchname> <origin/branchname>
 
+>代码修改
+
 >>推送自己的修改： git push origin <branchname>
 
 >>拉取服务器代码： git pull
@@ -42,6 +44,7 @@ README
 >>推送本地分支： git push origin <branchname>
 
 >>建立本地分支与远程分支的关联： git branch --set-upstream
+        
         git status 查看当前分支状态<br>
         git branch 查看当前所在分支<br>
         git init 初始化版本库<br>
@@ -50,7 +53,9 @@ README
         git stash apply 将暂存内容恢复，单暂存的内容不删除<br>
         git stash drop 删除暂存的内容，用在恢复之后 <br>
         git stash pop  恢复暂存的同时删除stash内容 <br>
-
+        git reset --hard <branchnum> 回退到某个提交
+        git log  打印提交记录
+        git reflog  查看命令历史
         
 
 **************************************************************
