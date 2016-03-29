@@ -1,11 +1,13 @@
 README
 ============================
 该文件是介绍git相关使用的。主要是命令行的使用。推荐可视化客户端SourceTree,不过稳定性有待提高。
+
 ****
-###                         Author:liuyong
-###                         E-mail:liuyonghui123@aliyun.com
+###                 Author:liuyong
+###             E-mail:liuyonghui123@aliyun.com
 
 ===========================
+
 
 ##<a name="index"/>目录
 1.git的基本知识
